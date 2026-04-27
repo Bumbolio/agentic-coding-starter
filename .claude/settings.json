@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Glob(**)",
+      "Grep(**)",
+
+      "Edit(src/**)",
+      "Write(src/**)",
+      "Edit(tests/**)",
+      "Write(tests/**)",
+      "Edit(test/**)",
+      "Write(test/**)",
+      "Edit(docs/**)",
+      "Write(docs/**)",
+      "Edit(public/**)",
+      "Write(public/**)",
+
+      "Edit(package.json)",
+      "Edit(package-lock.json)",
+      "Edit(tsconfig.json)",
+      "Edit(wrangler.toml)",
+      "Edit(wrangler.jsonc)",
+      "Edit(vitest.config.ts)",
+      "Edit(README.md)",
+      "Edit(CLAUDE.md)",
+      "Edit(.gitignore)",
+
+      "Bash(npm install)",
+      "Bash(npm ci)",
+      "Bash(npm test)",
+      "Bash(npm test:*)",
+      "Bash(npm run:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx wrangler:*)",
+      "Bash(wrangler dev:*)",
+      "Bash(wrangler tail:*)",
+      "Bash(wrangler types:*)",
+
+      "Bash(git status)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(pwd)",
+      "Bash(echo:*)"
+    ],
+    "ask": [
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git reset:*)",
+      "Bash(git checkout:*)",
+      "Bash(git rebase:*)",
+      "Bash(git merge:*)",
+
+      "Bash(wrangler deploy:*)",
+      "Bash(wrangler secret:*)",
+      "Bash(wrangler d1:*)",
+      "Bash(wrangler r2:*)",
+      "Bash(wrangler kv:*)",
+
+      "Bash(npm publish)",
+      "Bash(npm publish:*)",
+      "Bash(npm install -g:*)",
+
+      "Bash(rm -rf:*)",
+      "Bash(rm -fr:*)",
+      "Bash(sudo:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(ssh:*)",
+      "Bash(scp:*)",
+
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(.dev.vars)",
+      "Read(.dev.vars.*)",
+      "Read(**/.dev.vars)",
+      "Read(**/id_rsa)",
+      "Read(**/id_ed25519)",
+      "Read(**/.ssh/**)",
+      "Read(**/.aws/credentials)",
+
+      "Edit(.env)",
+      "Edit(.env.*)",
+      "Edit(.dev.vars)",
+      "Write(.env)",
+      "Write(.env.*)",
+      "Write(.dev.vars)"
+    ],
+    "deny": []
+  }
+}

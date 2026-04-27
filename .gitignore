@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.wrangler/
+worker-configuration.d.ts
+
+# Cloudflare local secrets — use `wrangler secret put` for production
+.dev.vars
+.dev.vars.*
+
+# Generic env files
+.env
+.env.*
+!.env.example
+
+# Claude Code local-only settings (per-developer overrides; shared rules live in .claude/settings.json)
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
