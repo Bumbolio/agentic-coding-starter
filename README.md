@@ -2,6 +2,9 @@
 
 This is the starter repository for **AI Foundations: Architecting the Next Generation of Apps**. Clone it, rename it, and make it yours.
 
+[![Fork this template](https://img.shields.io/badge/Fork_this_template-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bumbolio/agentic-coding-starter/fork)
+[![View syllabus](https://img.shields.io/badge/View_syllabus-a8361a?style=for-the-badge)](https://bumbolio.github.io/agentic-coding-starter/)
+
 ## What's in here
 
 ```
